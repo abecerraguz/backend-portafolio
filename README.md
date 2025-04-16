@@ -57,5 +57,5 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 - [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
 ---
-
+psql -U postgres -d railway -f /Users/abecerraguz/portafolio-abecerraguz/backend/scripts/backups/railway_backup_2025-04-15_21-06-23.sql
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
