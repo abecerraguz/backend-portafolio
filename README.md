@@ -66,3 +66,5 @@ git commit --allow-empty -m "🚀 Forzar deploy en Railway"
 git push origin main
 
 ```
+
+<!-- Actualizamos -->
