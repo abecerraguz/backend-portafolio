@@ -1,8 +1,21 @@
-export default () => ({
-    'strapi-import-export': {
-      enabled: true,
-      config: {
-        // Puedes agregar configuraciones adicionales aquí si es necesario
+export default ({ env }) => ({
+  'strapi-import-export': {
+    enabled: true,
+    config: {},
+  },
+  upload: {
+    config: {
+      provider: 'cloudinary',
+      providerOptions: {
+        cloud_name: env('CLOUDINARY_NAME'),
+        api_key: env('CLOUDINARY_KEY'),
+        api_secret: env('CLOUDINARY_SECRET'),
+      },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
       },
     },
-  });
+  },
+});
